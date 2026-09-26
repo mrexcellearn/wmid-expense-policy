@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  IMPORTANT: replace REPLACE_WITH_YOUR_SITE_URL below with your actual
+  GitHub Pages URL, e.g. https://yourusername.github.io/your-repo
+  (no trailing slash), before publishing.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>REPLACE_WITH_YOUR_SITE_URL/index.html</loc></url>
+  <url><loc>REPLACE_WITH_YOUR_SITE_URL/cash-advance-operations-ap03.html</loc></url>
+  <url><loc>REPLACE_WITH_YOUR_SITE_URL/corporate-card-travel-expense-ap04.html</loc></url>
+  <url><loc>REPLACE_WITH_YOUR_SITE_URL/corporate-card-authorization-tr04.html</loc></url>
+  <url><loc>REPLACE_WITH_YOUR_SITE_URL/resources.html</loc></url>
+</urlset>

@@ -1,0 +1,29 @@
+:root{
+  --bg:#ffffff;--fg:#1a1d21;--muted:#5b6169;--card:#f6f7f9;--border:#e2e5e9;
+  --accent:#c8102e;--code:#eef1f4;--tag-bg:#eef2ff;--tag-fg:#3546c9;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+header.top{border-bottom:1px solid var(--border);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+header.top a.home{color:var(--fg);text-decoration:none;font-weight:700;font-size:15px}
+nav.crumbs{font-size:12.5px;color:var(--muted)}
+nav.crumbs a{color:var(--accent);text-decoration:none}
+main{max-width:860px;margin:0 auto;padding:24px 20px 60px}
+h1{font-size:24px;margin:0 0 4px}
+.docmeta{color:var(--muted);font-size:13px;margin-bottom:22px}
+h2{font-size:17px;margin:26px 0 6px;border-bottom:2px solid var(--accent);padding-bottom:6px}
+h3{font-size:14px;margin:16px 0 4px;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+p{margin:6px 0}
+ul,ol{margin:6px 0;padding-left:20px}
+li{margin:3px 0}
+table{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:13px}
+th,td{border:1px solid var(--border);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--card);font-weight:600}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin:10px 0}
+.tag{display:inline-block;background:var(--tag-bg);color:var(--tag-fg);font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;margin-right:6px}
+.limit{color:var(--accent);font-weight:700}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:12px}
+.indexlist a{display:block;padding:12px 14px;border:1px solid var(--border);border-radius:10px;margin:8px 0;text-decoration:none;color:var(--fg)}
+.indexlist a:hover{border-color:var(--accent)}
+.indexlist .doc-id{color:var(--accent);font-weight:700;font-size:12px}
+footer{color:var(--muted);font-size:11px;text-align:center;padding:20px;border-top:1px solid var(--border);margin-top:20px}
