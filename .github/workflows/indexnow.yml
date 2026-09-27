@@ -19,7 +19,7 @@ jobs:
             "keyLocation": "https://excellearn.online/${{ secrets.BING_APIKEY }}.txt",
             "urlList": [
               "https://excellearn.online/wmid-expense-policy/",
-              "https://excellearn.online/wmid-expense-policy/cash-advance-operations-ap03.html".
+              "https://excellearn.online/wmid-expense-policy/cash-advance-operations-ap03.html",
               "https://excellearn.online/wmid-expense-policy/corporate-card-travel-expense-ap04.html",
               "https://excellearn.online/wmid-expense-policy/corporate-card-authorization-tr04.html",
               "https://excellearn.online/wmid-expense-policy/resources.html"
