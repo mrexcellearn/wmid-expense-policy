@@ -1,0 +1,27 @@
+name: IndexNow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit URL to IndexNow
+        run: |
+          curl -X POST "https://api.indexnow.org/indexnow" \
+          -H "Content-Type: application/json; charset=utf-8" \
+          -d '{
+            "host": "excellearn.online",
+            "key": "${{ secrets.BING_APIKEY }}",
+            "keyLocation": "https://excellearn.online/${{ secrets.BING_APIKEY }}.txt",
+            "urlList": [
+              "https://excellearn.online/wmid-expense-policy/",
+              "https://excellearn.online/wmid-expense-policy/cash-advance-operations-ap03.html".
+              "https://excellearn.online/wmid-expense-policy/corporate-card-travel-expense-ap04.html",
+              "https://excellearn.online/wmid-expense-policy/corporate-card-authorization-tr04.html",
+              "https://excellearn.online/wmid-expense-policy/resources.html"
+            ]
+          }'
